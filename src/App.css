@@ -1,0 +1,284 @@
+body{
+  background-color: black;
+  cursor: pointer !important;;
+}
+.navbar-brand {
+  color: white !important;
+}
+.nav-bg{
+  background-color:black !important;
+}
+.color{
+  color: white !important;
+  font-size: larger;
+  font-weight: bold;
+  margin-left: 40px;
+  position: relative;
+  display: inline-block;
+  padding: 5px 5px;
+  text-decoration: none;
+  overflow: hidden;
+}
+.color::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  font-size: x-large;
+  height: 2px; /* Height of the animated line */
+  background-color:gold; /* Color of the animated line */
+  transform: scaleX(0); /* Initial width set to zero */
+  transition: transform 0.5s ease; /* Transition effect */
+}
+.color:hover::after{
+  transform: scaleX(1); 
+}
+.profile{
+  height: 40px;
+  width: 50px;
+  border-radius: 15px;
+}
+.name{
+  margin-left: 20px;
+}
+/* Home css */
+.image{
+    height: 450px;
+    width: 450px;
+    margin-top: 100px;
+    border: 4px  ;
+    border-radius: 50%;
+    border-width: 20px;
+    background-color:lightgrey;
+    box-shadow: 10px 10px 70px lightgrey;
+}
+.mt{
+  margin-top: 160px;
+  color: goldenrod;
+  margin-left: 180px;
+} 
+.l1{
+  font-size:larger;
+  font-weight: bolder;
+  font-family:  sans-serif;
+}
+.l2{
+  font-size: 60px;
+  font-weight: bolder;
+  font-family: Impact, 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+}
+.l3{
+  font-size: 60px;
+  font-family: Impact, 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+}
+.l4{
+  font-size: 60px;
+  font-family: Impact, 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+}
+.btn{
+  border-radius: 50px;
+}
+.all-btn{
+  margin-left: 210px;
+  margin-top: 20px;
+}
+.resume-link{
+  list-style-type: none;
+  text-decoration: none;
+}
+/* footercss */
+.footer-top{
+  margin-top: 90px;
+}
+.footer-color{
+  color: burlywood !important;
+  font-size: 20px;
+  font-weight: bold;
+  
+}
+.text{
+  text-align: center;
+}
+.head{
+  color: white;
+  font-size: larger;
+}
+.link-services{
+  list-style-type: none;
+  text-decoration: none;
+ 
+}
+.link-about{
+  list-style-type: none;
+  text-decoration: none;
+}
+.icons{
+  background-color: white;
+}
+.footer-li{
+  list-style-type: none;
+  margin-left: 300px;
+
+}
+
+ /* about css */
+ .about-image{
+  height: 450px;
+  width: 450px;
+  margin-top:50px ;
+  border: 4px  ;
+  border-radius:50%;
+  background-color:khaki;
+  margin-left: 40px;
+}
+.data{
+  color:skyblue;
+ margin-top: 100px;
+  margin-left: 90px;
+}
+.data2{
+  color:goldenrod;
+  margin-top: 100px;
+}
+.info{
+  font-weight: bolder;
+}
+
+.me-btn{
+  margin-top: 50px;
+  width: 500px;
+  margin-left: 320px;
+}
+.des{
+  font-size: x-large;
+  color: khaki;
+
+}
+.more-me{
+  margin-top: 4%;
+  border-bottom: 2px solid gold;
+  color: gold;
+  width: 22%;
+  font-size: xx-large;
+  font-weight: bolder;
+  
+}
+/* service css */
+.card-bg{
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.title-bg{
+  color: goldenrod;
+}
+.text-bg{
+  color: whitesmoke;
+  font-weight:600;
+}
+.service-btn{
+   margin-top: 60px;
+   font-size: xx-large;
+   font-weight: bold;
+   width: 45%;
+   margin-left: 25%;
+}
+/* .ptag{
+  margin-left: 25%;
+  margin-top: 30px;
+  color: white;
+  border-bottom: 2px solid white;
+  width: 47%;
+} */
+
+ /* Resume css */
+ .cv-head{
+  margin-top: 40px;
+  color: rgb(255, 187, 0);
+  font-weight: bolder;
+  border-bottom: 2px solid rgb(255, 187, 0);
+
+ }
+.cv{
+  width: 900px;
+  height: 1200px;
+  margin-left: 110px;
+}
+/* skill css */
+.skill-head{
+  width: 40%;
+  margin-top: 60px;
+  margin-left: 30%;
+}
+.skill-line{
+  height: 12px;
+  width: 90%;
+}
+.progress{
+  margin-top: 70px !important;
+}
+.bg-line{
+  background-color:#ffbd39;
+ 
+}
+.line-head{
+   margin-bottom: 60px;
+   margin-left: 10px;
+   font-weight: bolder;
+   position: absolute;
+   font-size: x-large;
+}
+.a90{
+  position:absolute;
+  font-size: x-large;
+  color: white;
+  margin-bottom: 60px;
+  margin-left:400px;
+  font-weight: bolder;
+}
+.a85{
+  position:absolute;
+  font-size: x-large;
+  color: white;
+  margin-bottom: 60px;
+  margin-left:380px;
+  font-weight: bolder;
+}
+.a80{
+  position:absolute;
+  font-size: x-large;
+  color: white;
+  margin-bottom: 60px;
+  margin-left:360px;
+  font-weight: bolder;
+}
+.a95{
+  position:absolute;
+  font-size: x-large;
+  color: white;
+  margin-bottom: 60px;
+  margin-left:420px;
+  font-weight: bolder;
+}
+.a75{
+  position:absolute;
+  font-size: x-large;
+  color: white;
+  margin-bottom: 60px;
+  margin-left:330px;
+  font-weight: bolder;
+}
+/* certificate css */
+.certificate{
+     width: 100% ;
+}
+
+/* project css */
+
+.project-img{
+
+  height: 400px;
+  
+}
+
+
+
