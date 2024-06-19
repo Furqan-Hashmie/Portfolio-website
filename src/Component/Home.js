@@ -14,13 +14,13 @@ const Home = () => {
              <h1 className='l4 fw-bold'>developer</h1>
          </div>
       <div className='all-btn'>
-      <button className='btn btn-outline-warning me-3 fw-bold btn' onClick={window.scrollTo()}>Contact Us</button>
-      <a href='https://www.fiverr.com/fhdeveloper?up_rollout=true'><button className='btn btn-outline-warning me-3 fw-bold btn'>Hire me</button></a>
-      <Link to={"/resume"} className='resume-link'>  <button className='btn btn-outline-warning me-3 fw-bold btn'>My CV</button></Link>
+      <Link to="https://drive.google.com/file/d/1AQehjHN6FK6LqOL_2z-ocp2873jly5D0/view" target="_blank"><button className='btn btn-outline-warning me-3 fw-bold btn'>Certificate</button></Link>
+      <Link to="https://drive.google.com/file/d/1fC0XbJSGwCiDyqFG-z9fKls975HXV40M/view" target="_blank" className='resume-link'> <button className='btn btn-outline-warning me-3 fw-bold btn'>Resume</button></Link>
+      <Link to="https://drive.google.com/file/d/1AQehjHN6FK6LqOL_2z-ocp2873jly5D0/view" target="_blank"><button className='btn btn-outline-warning me-3 fw-bold btn'>Certificate</button></Link>
       </div>
           </div>
          <div className='col'>
-         <img src='Images/my_pic_2-removebg-preview.png' className='image'></img>            
+         <img src='/Images/userpng.png' alt='img' className='image'></img>            
           </div>
         </div>
     </div>

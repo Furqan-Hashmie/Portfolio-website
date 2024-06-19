@@ -6,7 +6,7 @@ const About = () => {
       <button className='btn btn-outline-warning me-btn' ><center className='fs-2 fw-bold me'>About me</center></button>
       <div className='row'>
       <div className='col-lg-5'>
-         <img src='/Images/my_pic_2-removebg-preview.png' className='about-image'></img>            
+         <img src='/Images/laptop.png' alt='img' className='about-image'></img>            
       </div>
       <div className='col-lg-5'>
           <div className='row d-flex'>

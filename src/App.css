@@ -5,8 +5,12 @@ body{
 .navbar-brand {
   color: white !important;
 }
+
 .nav-bg{
   background-color:black !important;
+}
+.topnav{
+  margin-left: 450px;
 }
 .color{
   color: white !important;
@@ -44,14 +48,11 @@ body{
 }
 /* Home css */
 .image{
-    height: 450px;
-    width: 450px;
-    margin-top: 100px;
-    border: 4px  ;
-    border-radius: 50%;
-    border-width: 20px;
-    background-color:lightgrey;
-    box-shadow: 10px 10px 70px lightgrey;
+    height: 400px;
+    width: 400px;
+    margin-top: 120px;
+    
+
 }
 .mt{
   margin-top: 160px;
@@ -80,8 +81,9 @@ body{
   border-radius: 50px;
 }
 .all-btn{
-  margin-left: 210px;
+  margin-left: 170px;
   margin-top: 20px;
+  display: flex;
 }
 .resume-link{
   list-style-type: none;
@@ -124,12 +126,10 @@ body{
 
  /* about css */
  .about-image{
-  height: 450px;
-  width: 450px;
+  height: 400px;
+  width: 400px;
   margin-top:50px ;
-  border: 4px  ;
-  border-radius:50%;
-  background-color:khaki;
+
   margin-left: 40px;
 }
 .data{
